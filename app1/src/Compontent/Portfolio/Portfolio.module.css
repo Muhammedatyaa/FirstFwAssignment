@@ -1,0 +1,21 @@
+.portfolio {
+    margin-top: 140px;
+}
+
+.cover {
+    background-color:#1abc9c;
+    opacity: 0;
+    font-weight: bold;
+    transition: 0.8s opacity;
+    cursor: pointer;
+}
+
+.box:hover > .cover {
+    opacity: 1;
+}   
+
+.overlay {
+    background-color: #1abc9c4a;
+    z-index: 9999;
+    display: none;
+}
